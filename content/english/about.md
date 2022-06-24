@@ -1,9 +1,11 @@
 ---
-title: "Hootan Safiyari"
-image: "images/author.jpg"
-description: "this is meta description"
+title: Hootan Safiyari
+description: this is meta description
 sidebar: true
-widgets: ["recommended","categories"]
+image: /images/cob-oven.jpg
+widgets:
+  - recommended
+  - categories
 draft: false
 ---
 
