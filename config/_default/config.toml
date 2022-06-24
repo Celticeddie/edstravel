@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "edstravel.netlify.app"
 title = "Ed's Travel"
 theme = "reporter"
 # post pagination
