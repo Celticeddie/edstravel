@@ -5,7 +5,8 @@ image: "images/post/post-4.jpg"
 description: "this is meta description"
 # define subcategories using "/"
 # mouse is a subcategory of computer
-categories: ["destination"]
+categories: ["destination", "tips"]
+categories1: ["destination", "tips"]
 draft: false
 ---
 # Heading
