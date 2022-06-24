@@ -30,5 +30,6 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" , required: false }
       - { label: "Featured image", name: "image", widget: "image", required: false  }
-      - { label: "Categories", name: "categories", widget: "list", allow_add: true,   field: {label: Name, name: name, widget: text} }
+      - { label: "Categories", name: "categories", widget: "list", allow_add: true, summary: 'fields.name',  field: {label: Name, name: name, widget: text}, required: false  }
+      - { label: "Categories", name: "categories", widget: "list", allow_add: true, required: false  }
       - { label: "Body", name: "body", widget: "markdown", required: false  }
