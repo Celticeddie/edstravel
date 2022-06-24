@@ -34,9 +34,20 @@ collections:
       - { label: "Body", name: "body", widget: "markdown", required: false  }
   - name: "menus"
     label: "Menus"
-    file: "/config/_default/menu.en.toml"
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "URL", name: "url", widget: "string" }
-      - { label: "Weight", name: "weight", widget: "string" }
-      - { label: "Parent", name: "parent", widget: "string", required: false}
+    editor:
+      preview: false
+    delete: false
+    create: false 
+    files:
+      - file: "config/_default/menu.fr.toml"
+        name: "Menus"
+        label: "Menus"
+        fields:
+          - label: "main"
+            name: "Main"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Weight", name: "weight", widget: "string" }
+              - { label: "Parent", name: "parent", widget: "string", required: false}
