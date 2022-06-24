@@ -8,4 +8,4 @@ widgets:
   - categories
 draft: false
 ---
-Hello, I'm Edward Finn, award winning Travel Journalist, Radio, TV presenter and Podcaster.  I've been  involved in promoting Travel and Tourism for over 25 years.
+Hello, I'm Ed Finn, award winning Travel Journalist, Radio, TV presenter and Podcaster.  I've been  involved in promoting Travel and Tourism for over 25 years.
