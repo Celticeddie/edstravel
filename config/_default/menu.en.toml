@@ -5,28 +5,10 @@ url = "about/"
 weight = 1
 
 [[main]]
-name = "Articles"
+name = "Blog"
 url = "#"
 hasChildren = true
 weight = 2
-
-  [[main]]
-  parent = "Articles"
-  name = "Travel"
-  url = "articles/travel/"
-  weight = 1
-    
-  [[main]]
-  parent = "Articles"
-  name = "Lifestyle"
-  url = "articles/lifestyle/"
-  weight = 2
-    
-  [[main]]
-  parent = "Articles"
-  name = "Cruises"
-  url = "articles/cruises/"
-  weight = 3
 
 [[main]]
 name = "Contact"
@@ -44,11 +26,6 @@ weight = 2
 name = "Sitemap"
 url = "sitemap.xml"
 weight = 3
-
-[[footer]]
-name = "Elements"
-url = "elements"
-weight = 4
 
 [[footer]]
 name = "Privacy Policy"
