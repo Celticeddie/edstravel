@@ -46,11 +46,6 @@ url = "sitemap.xml"
 weight = 3
 
 [[footer]]
-name = "Éléments"
-url = "elements"
-weight = 4
-
-[[footer]]
 name = "Privacy Policy"
 url = "privacy-policy"
 weight = 7
