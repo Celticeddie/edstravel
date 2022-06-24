@@ -39,12 +39,20 @@ collections:
     delete: false
     create: false 
     files:
-      - file: "config/_default/menu.fr.toml"
+      - file: "config/_default/menu.en.toml"
         name: "Menus"
         label: "Menus"
         fields:
-          - label: "main"
-            name: "Main"
+          - label: "Main menu"
+            name: "main"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Weight", name: "weight", widget: "string" }
+              - { label: "Parent", name: "parent", widget: "string", required: false}
+          - label: "Footer menu"
+            name: "footer"
             widget: "list"
             fields:
               - { label: "Name", name: "name", widget: "string" }
