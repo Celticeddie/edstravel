@@ -2,7 +2,7 @@
 title: Ed Finn
 description: "Travel Journalist "
 sidebar: true
-image: /images/whatsapp-image-2022-06-24-at-11.40.20-pm.jpeg
+image: /images/edfinntodayshow.jpg
 widgets:
   - recommended
   - categories
