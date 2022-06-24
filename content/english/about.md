@@ -2,7 +2,7 @@
 title: Ed Finn
 description: "Travel Journalist "
 sidebar: true
-image: /images/edfinntodayshow.jpg
+image: https://postimg.cc/qhhW2mNX
 widgets:
   - recommended
   - categories
