@@ -6,10 +6,11 @@ public_folder: "/images"
 collections:
   - name: "pages"
     label: "Pages"
+    delete: true
+    create: true 
     editor:
       preview: false
     folder: "content/english" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false  }
