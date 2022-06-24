@@ -15,8 +15,8 @@ collections:
       - { label: "Description", name: "description", widget: "text", required: false  }
       - { label: "Sidebar", name: "sidebar", widget: "boolean", required: false  }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
-      - { label: "Widgets", name: "widgets", widget: "list", allow_add: false, default: ["recommended","categories"] }
-      - { label: "Layout", name: "layout", widget: "select", options: ["","contact","search"] }
+      - { label: "Widgets", name: "widgets", widget: "select", multiple: true, options: ["recommended","categories", "about"], required: false  }
+      - { label: "Layout", name: "layout", widget: "select", options: ["","contact","search"], required: false  }
       - { label: "Body", name: "body", widget: "markdown", required: false  }
   - name: "blog"
     label: "Blog"
@@ -29,6 +29,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" , required: false }
-      - { label: "Featured image", name: "image", widget: "images", required: false  }
-      - { label: "Widgets", name: "widgets", widget: "list", allow_add: true, default: ["recommended","categories"] }
+      - { label: "Featured image", name: "image", widget: "image", required: false  }
+      - { label: "Categories", name: "categories", widget: "list", allow_add: true,   field: {label: Name, name: name, widget: text} }
       - { label: "Body", name: "body", widget: "markdown", required: false  }
