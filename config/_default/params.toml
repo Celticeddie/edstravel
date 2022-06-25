@@ -8,9 +8,9 @@ description = "This is meta description"
 author = "Ed Finn"
 og_image = "/images/placeholder.jpg"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "hello@reporter.com"
+address = ""
+mobile = ""
+email = "ed@traveltalk.ie"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # custom script on header
