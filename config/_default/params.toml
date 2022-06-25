@@ -1,11 +1,11 @@
 #################### default parameters ############################
 logo = "images/logo.png"
 logo_white = "images/logo-white.png"
-logo_width = "150x"
+logo_width = "200x"
 favicon = "images/favicon.png"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Ed Finn"
 og_image = "/images/placeholder.jpg"
 # contact info
 address = "9567 Turner Trace Apt. BC C3G8A4"
