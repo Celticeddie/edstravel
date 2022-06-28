@@ -62,20 +62,20 @@ h6, .h6 {
     box-shadow: none !important; }
 
 .btn-primary {
-  background: #13AE6F;
+  background: #ff3300;
   color: #fff;
-  border-color: #13AE6F; }
+  border-color: #ff3300; }
   .btn-primary:hover, .btn-primary:active, .btn-primary.active .btn-primary:focus, .btn-primary.focus {
-    background: #13AE6F !important;
-    border-color: #13AE6F !important; }
+    background: #ff3300 !important;
+    border-color: #ff3300 !important; }
 
 .btn-outline-primary {
   background: transparent;
-  color: #13AE6F;
-  border-color: #13AE6F; }
+  color: #ff3300;
+  border-color: #ff3300; }
   .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary.active .btn-outline-primary:focus, .btn-outline-primary.focus {
-    background: #13AE6F !important;
-    border-color: #13AE6F !important;
+    background: #ff3300 !important;
+    border-color: #ff3300 !important;
     color: #fff; }
 
 .btn-sm {
@@ -87,7 +87,7 @@ body {
   overflow-x: hidden; }
 
 ::selection {
-  background: #13AE6F;
+  background: #ff3300;
   color: #fff; }
 
 /* preloader */
@@ -125,7 +125,7 @@ select {
     outline: 0; }
 
 a:hover {
-  color: #13AE6F; }
+  color: #ff3300; }
 
 .slick-slide {
   outline: 0; }
@@ -156,7 +156,7 @@ a:hover {
   border-color: #ececec !important; }
 
 .border-primary {
-  border-color: #13AE6F !important; }
+  border-color: #ff3300 !important; }
 
 .font-primary {
   font-family: "Work Sans", sans-serif !important; }
@@ -176,7 +176,7 @@ a:hover {
     font-size: 10px;
     font-weight: 600; }
     .breadcrumb-item a {
-      color: #13AE6F; }
+      color: #ff3300; }
 
 /* overlay */
 .overlay {
@@ -192,10 +192,10 @@ a:hover {
     opacity: .5; }
 
 .bg-primary {
-  background: #13AE6F !important; }
+  background: #ff3300 !important; }
 
 .text-primary {
-  color: #13AE6F !important; }
+  color: #ff3300 !important; }
 
 .text-default {
   color: #333 !important; }
@@ -405,7 +405,7 @@ a:hover {
         text-transform: uppercase;
         letter-spacing: 2px; }
         .card-meta li a:hover {
-          color: #13AE6F; }
+          color: #ff3300; }
   .card-footer {
     background-color: transparent; }
     .card-footer span {
@@ -447,7 +447,7 @@ a:hover {
   color: #000;
   display: inline;
   text-decoration: none;
-  background-image: linear-gradient(#3deaa4, #3deaa4);
+  background-image: linear-gradient(#ff8566, #ff8566);
   background-position: 0% 80%;
   background-repeat: no-repeat;
   background-size: 0% 8px;
@@ -480,14 +480,14 @@ a.post-title-sm:hover {
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05); }
     .pagination .page-item .page-link:focus, .pagination .page-item .page-link:hover {
       box-shadow: none;
-      background: #13AE6F;
+      background: #ff3300;
       color: #fff; }
   .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
     border-radius: 0; }
   .pagination .page-item.active .page-link {
-    background: #13AE6F;
+    background: #ff3300;
     color: #fff;
-    border-color: #13AE6F; }
+    border-color: #ff3300; }
 
 .post-meta {
   padding-left: 0; }
@@ -507,7 +507,7 @@ a.post-title-sm:hover {
       font-size: 14px;
       border-radius: 0; }
       .post-meta li a:hover {
-        background-color: rgba(61, 234, 164, 0.25); }
+        background-color: rgba(255, 133, 102, 0.25); }
     .post-meta li svg {
       display: inline-block; }
 
@@ -564,7 +564,7 @@ a.post-title-sm:hover {
   color: inherit !important;
   display: inline;
   text-decoration: none;
-  background-image: linear-gradient(#3deaa4, #3deaa4);
+  background-image: linear-gradient(#ff8566, #ff8566);
   background-position: 0% 110%;
   background-repeat: no-repeat;
   background-size: 100% 3px;
@@ -574,7 +574,7 @@ a.post-title-sm:hover {
     background-size: 100% 100%; }
 
 .content.bg-dark a:hover {
-  background-image: linear-gradient(rgba(19, 174, 111, 0.4), rgba(19, 174, 111, 0.4)); }
+  background-image: linear-gradient(rgba(255, 51, 0, 0.4), rgba(255, 51, 0, 0.4)); }
 
 .content ol {
   padding-left: 20px; }
@@ -597,7 +597,7 @@ a.post-title-sm:hover {
       border-radius: 100%;
       left: 0;
       top: 7px;
-      background-color: #13AE6F;
+      background-color: #ff3300;
       transition: .3s ease; }
 
 .content table {
@@ -619,7 +619,7 @@ a.post-title-sm:hover {
       text-align: left !important; }
 
 .content blockquote {
-  border-left: 4px solid #13AE6F;
+  border-left: 4px solid #ff3300;
   padding: 20px;
   margin: 20px 0; }
   .content blockquote p {
@@ -689,7 +689,7 @@ a.post-title-sm:hover {
         font-size: 14px;
         border-radius: 0; }
         .widget-list li a:hover {
-          background-color: rgba(61, 234, 164, 0.25); }
+          background-color: rgba(255, 133, 102, 0.25); }
 
 .author-thumb-sm {
   height: 150px;
@@ -717,7 +717,7 @@ footer .section {
   padding: 45px 0; }
 
 .navbar-footer .nav-link:hover {
-  color: #13AE6F;
+  color: #ff3300;
   text-decoration: underline; }
 
 .form-control {
