@@ -1,40 +1,32 @@
 [[main]]
 name = "About Me"
 url = "about/"
-weight = 1
 
 [[main]]
 name = "Blog"
 url = "#"
 hasChildren = true
-weight = 2
 
 [[main]]
 name = "Media Company"
 url = "https://mediatravelsolutions.com/"
-weight = "3"
 
 [[main]]
 name = "Contact"
 url = "contact/"
-weight = 3
 
 [[footer]]
 name = "About"
 url = "about"
-weight = 2
 
 [[footer]]
 name = "Sitemap"
 url = "sitemap.xml"
-weight = 3
 
 [[footer]]
 name = "Privacy Policy"
 url = "privacy-policy"
-weight = 7
 
 [[footer]]
 name = "Terms Conditions"
 url = "terms-conditions"
-weight = 8

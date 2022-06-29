@@ -13,6 +13,7 @@
           {{ if eq $i 0}}
           <div class="col-12 mb-4">
             <article class="card article-card">
+                 <h2 class="h1"><a class="post-title" href="{{.RelPermalink}}">{{ .Title }}</a></h2>
               <a href="{{.Permalink}}">
                 <div class="card-image">
                   <div class="post-info">
@@ -52,7 +53,6 @@
                   </li>
                 </ul>
                 {{ end }}
-                <h2 class="h1"><a class="post-title" href="{{.RelPermalink}}">{{ .Title }}</a></h2>
                 <p class="card-text">{{.Summary}}</p>
 
                 <div class="content">
