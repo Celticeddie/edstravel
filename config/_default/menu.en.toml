@@ -10,14 +10,14 @@ hasChildren = true
 weight = 2
 
 [[main]]
-name = "Contact"
-url = "contact/"
-weight = 3
-
-[[main]]
 name = "Media Company"
 url = "https://mediatravelsolutions.com/"
 weight = "3"
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 3
 
 [[footer]]
 name = "About"
