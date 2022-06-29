@@ -1,4 +1,3 @@
-# main menu
 [[main]]
 name = "About Me"
 url = "about/"
@@ -15,8 +14,11 @@ name = "Contact"
 url = "contact/"
 weight = 3
 
+[[main]]
+name = "Media Company"
+url = "https://mediatravelsolutions.com/"
+weight = "3"
 
-# footer menu
 [[footer]]
 name = "About"
 url = "about"
