@@ -223,6 +223,8 @@ a:hover {
 
 .navigation {
   background-color: transparent; }
+  .navigation .logo {
+    text-align: center; }
   .navigation .navbar {
     border-bottom: 1px solid #ececec;
     padding: 25px 0; }
