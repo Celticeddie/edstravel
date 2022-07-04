@@ -224,6 +224,7 @@ a:hover {
 .navigation {
   background-color: transparent; }
   .navigation .logo {
+    padding-top: 20px;
     text-align: center; }
   .navigation .navbar {
     border-bottom: 1px solid #ececec;
