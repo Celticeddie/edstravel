@@ -12,6 +12,10 @@ name = "On Radio"
 url = "https://www.sunshineradio.ie/podcasts/travel-talk/"
 
 [[main]]
+name = "On Youtube"
+url = "https://www.YouTube.com/c/thetravelshow"
+
+[[main]]
 name = "Media Company"
 url = "https://mediatravelsolutions.com/"
 
