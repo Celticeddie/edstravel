@@ -23,6 +23,10 @@ url = "https://mediatravelsolutions.com/"
 name = "Contact"
 url = "contact/"
 
+[[main]]
+name = "Podcast"
+url = "https://thetraveldiariespodcast.com"
+
 [[footer]]
 name = "About"
 url = "about"
