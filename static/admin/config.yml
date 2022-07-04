@@ -50,7 +50,7 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "URL", name: "url", widget: "string" }
-              - { label: "Weight", name: "weight", widget: "string", required: false }
+              - { label: "Sorting Order", name: "weight", widget: "string", required: false }
               - { label: "Has submenu", name: "hasChildren", widget: "boolean", required: false }
               - { label: "Parent", name: "parent", widget: "string", required: false}
           - label: "Footer menu"
@@ -59,5 +59,5 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "URL", name: "url", widget: "string" }
-              - { label: "Weight", name: "weight", widget: "string", required: false }
+              - { label: "Sorting order", name: "weight", widget: "string", required: false }
               - { label: "Parent", name: "parent", widget: "string", required: false}
