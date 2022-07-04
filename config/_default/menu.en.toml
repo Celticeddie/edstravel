@@ -1,31 +1,38 @@
 [[main]]
 name = "About Me"
 url = "about/"
+weight = "1"
 
 [[main]]
 name = "Travel"
 url = "/"
 hasChildren = true
+weight = "2"
 
 [[main]]
 name = "On Radio"
 url = "https://www.sunshineradio.ie/podcasts/travel-talk/"
+weight = "3"
 
 [[main]]
 name = "On Youtube"
 url = "https://www.YouTube.com/c/thetravelshow"
+weight = "4"
 
 [[main]]
 name = "Media Company"
 url = "https://mediatravelsolutions.com/"
+weight = "5"
 
 [[main]]
 name = "Contact"
 url = "contact/"
+weight = "10"
 
 [[main]]
 name = "Podcast"
 url = "https://thetraveldiariespodcast.com"
+weight = "100"
 
 [[footer]]
 name = "About"
