@@ -3,9 +3,13 @@ name = "About Me"
 url = "about/"
 
 [[main]]
-name = "Blog"
+name = "Travel"
 url = "#"
 hasChildren = true
+
+[[main]]
+name = "On Radio"
+url = "https://www.sunshineradio.ie/podcasts/travel-talk/"
 
 [[main]]
 name = "Media Company"
