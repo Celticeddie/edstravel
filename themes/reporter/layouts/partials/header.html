@@ -9,7 +9,7 @@
         {{ $option := add (string site.Params.logo_width) " webp" }}
         {{ $logo:= $logo.Resize site.Params.logo_width }}
         {{ $logo_webp:= $logo.Resize $option }}
-        <img loading="prelaod" decoding="async" class="img-fluid" width="{{$logo.Width}}" height="{{$logo.Height}}" src="{{$logo_webp.RelPermalink}}" alt="{{ site.Title }}" onerror="this.onerror=null;this.src='{{$logo.RelPermalink}}'">
+        <img loading="preload" decoding="async" class="img-fluid" width="{{$logo.Width}}" height="{{$logo.Height}}" src="{{$logo_webp.RelPermalink}}" alt="{{ site.Title }}" onerror="this.onerror=null;this.src='{{$logo.RelPermalink}}'">
         {{ else }}
         {{site.Params.logo_text | markdownify}}
         {{ end }}
@@ -53,7 +53,7 @@
       
       <div class="collapse navbar-collapse text-center order-lg-2 order-4" id="navigation">
         <ul class="navbar-nav mx-auto mt-3 mt-lg-0">
-          {{ range site.Menus.main }}
+          {{ range sort site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
