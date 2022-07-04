@@ -24,7 +24,7 @@ name = "Contact"
 url = "contact/"
 
 [[main]]
-name = "Podcast..."
+name = "Podcast"
 url = "https://thetraveldiariespodcast.com"
 
 [[footer]]
