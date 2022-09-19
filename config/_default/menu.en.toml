@@ -31,7 +31,7 @@ weight = "10"
 
 [[main]]
 name = "Podcast"
-url = "https://thetraveldiariespodcast.com"
+url = "https://thetravelloungepodcast.com"
 weight = "100"
 
 [[footer]]
