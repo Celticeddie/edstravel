@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "edstravels.com"
-title = "Ed's Travels"
+baseURL = "edfinntravels.com"
+title = "Ed Finn Travels"
 theme = "reporter"
 # post pagination
 paginate = "7"
