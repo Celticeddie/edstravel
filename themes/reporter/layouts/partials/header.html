@@ -9,7 +9,9 @@
         {{ end }}
     
       </a>
-      <div class="aspace float-sm-none float-md-right pull-right">.</div>
+      <div class="aspace float-sm-none float-md-right pull-right">
+        {{ with .Site.GetPage "/ad.md" }}{{ .Body }}{{ end }}
+      </div>
     </div>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light px-0">
