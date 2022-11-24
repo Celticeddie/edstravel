@@ -1,7 +1,7 @@
 #################### default parameters ############################
 logo = "images/logo.webp"
 logo_white = "images/logo.webp"
-logo_width = "230x"
+logo_width = "270x"
 favicon = "images/favicon.png"
 # Meta data
 description = "This is meta description"
