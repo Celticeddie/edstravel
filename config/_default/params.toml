@@ -1,6 +1,6 @@
 #################### default parameters ############################
-logo = "images/logo.jpg"
-logo_white = "images/logo.jpg"
+logo = "images/logo.webp"
+logo_white = "images/logo.webp"
 logo_width = "230x"
 favicon = "images/favicon.png"
 # Meta data
