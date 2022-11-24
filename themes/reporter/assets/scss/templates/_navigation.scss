@@ -33,7 +33,6 @@
   .nav-item {
     margin: 0;
     position: relative;
-    }
   
     .nav-link {
       font-size: 18px;
@@ -154,7 +153,7 @@
   .navbar-light .navbar-nav .nav-link {
     color: $text-color-dark;
     font-weight: 600;
-    padding: 15px 40px 15px 0px;;
+    padding: 15px 40px 15px 0;
     &:hover {
       color: $black;
     }
