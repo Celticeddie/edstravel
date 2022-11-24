@@ -6,7 +6,7 @@
         <img loading="preload" decoding="async" class="img-fluid" width="270" height="70" src="{{ site.Params.logo }}" alt="{{ site.Title }}">
       </a>
       <div class="aspace float-sm-none float-md-right pull-right">
-        {{ with .Site.GetPage "/ad.md" }}{{ .Body }}{{ end }}
+        {{ with .Site.GetPage "/ad.md" }}{{ .Content }}{{ end }}
       </div>
     </div>
     <!-- navbar -->
