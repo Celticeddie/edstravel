@@ -3,7 +3,7 @@
   <div class="container">
     <div class="logo">
         <a class="navbar-brand order-1 py-0" href="{{ site.BaseURL | relLangURL }}">
-        <img loading="preload" decoding="async" class="img-fluid" width="270" height="{{$logo.Height}}" src="{{ site.Params.logo }}" alt="{{ site.Title }}">
+        <img loading="preload" decoding="async" class="img-fluid" width="270" height="70" src="{{ site.Params.logo }}" alt="{{ site.Title }}">
         {{ else }}
         {{site.Params.logo_text | markdownify}}
         {{ end }}
