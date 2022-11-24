@@ -33,15 +33,6 @@
   .nav-item {
     margin: 0;
     position: relative;
-    &::after {
-      position: absolute;
-      content: "/";
-      right: -2px;
-      top: 50%;
-      transform: translateY(-50%);
-      @include desktop {
-        display: none;
-      }
     }
   
     .nav-link {
@@ -162,8 +153,8 @@
 
   .navbar-light .navbar-nav .nav-link {
     color: $text-color-dark;
-    font-weight: 500;
-    padding: 15px 20px;
+    font-weight: 600;
+    padding: 15px 40px 15px 0px;;
     &:hover {
       color: $black;
     }
