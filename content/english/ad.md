@@ -9,4 +9,4 @@ widgets:
   - categories
 draft: false
 ---
-![](/images/bannerwinter.jpg)
+<﻿a href="https://www.germany.travel/en/campaign/christmas-markets/christmas-markets.html" target="_blank">![](/images/bannerwinter.jpg)<﻿/a>
