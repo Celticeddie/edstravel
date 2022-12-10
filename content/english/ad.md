@@ -9,4 +9,4 @@ widgets:
   - categories
 draft: false
 ---
-![](/images/banner-winter.png)
+![](/images/bannerwinter.jpg)
