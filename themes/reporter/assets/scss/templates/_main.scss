@@ -476,3 +476,13 @@ footer {
     box-shadow: none;
   }
 }
+.adspace p {
+  margin: 0; 
+}
+
+@media only screen and (max-width: 600px) {
+  .adspace img  {
+    margin: 0 20px;
+    max-width: 100%;
+  }
+}
