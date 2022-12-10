@@ -9,4 +9,4 @@ widgets:
   - categories
 draft: false
 ---
-The Ad here...
+![](/images/banner-winter.png)
