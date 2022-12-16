@@ -9,4 +9,4 @@ widgets:
   - categories
 draft: false
 ---
-<a href="https://www.germany.travel/en/campaign/christmas-markets/christmas-markets.html" target="_blank"><img src="/images/banner2.png" /></a>
+<a href="https://www.germany.travel/en/campaign/christmas-markets/christmas-markets.html" target="_blank"><img src="/images/bannerwinter.jpg" /></a>
